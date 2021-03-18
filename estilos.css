@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font: bold 25px sans-serif;
+}
+h2 {
+  font: bold 14px sans-serif;
+}
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+  display: block;
+}
+body {
+  text-align: center;
+  background: #17c0eb;
+}
+/*PRIMER DIV*/
+.agrupar {
+  width: 960px;
+  border: 1px solid black;
+  margin: 15px auto;
+  background: #4cd137;
+}
+/* HEADER*/
+header {
+  background: #3742fa;
+  border: 1px solid #9999;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: left;
+}
+/* LISTA DESPLEGABLE */
+.navegacion {
+  width: 960px;
+  margin: 15px 10px;
+  margin-bottom: 5px;
+}
+.navegacion ul {
+  list-style: none;
+  text-align: left;
+}
+.menu li {
+  position: relative;
+  display: inline-block;
+}
+.menu li a {
+  display: block;
+  padding: 5px 20px;
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: red;
+  transition: all 1.5s;
+}
+.submenu {
+  position: absolute;
+  background: gray;
+  border: 1px solid black;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.submenu li a {
+  display: block;
+  border: 2px solid black;
+  padding: 15px;
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+/*ARTICULOS*/
+.seccion {
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+/* PARRAFOS */
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 200%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+article {
+  background: #fff200;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+img {
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+article footer {
+  text-align: right;
+  margin-top: 20px;
+}
+/*ASIDE Y BLOCKQUOTE*/
+.aside {
+  width: 300px;
+  float: left;
+  margin: 20px 0;
+}
+aside blockquote {
+  border: 1px solid black;
+  padding: 40px;
+  background: #1e90ff;
+  margin-bottom: 20px;
+}
+/* INPUTS*/
+form {
+  text-align: center;
+  margin-top: 10px;
+}
+.check {
+  display: block;
+  margin-bottom: 10px;
+}
+.opinion {
+  display: block;
+  margin-bottom: 15px;
+}
+#text-area {
+  width: 220px;
+}
+.boton-enviar {
+  width: 100px;
+  height: 22px;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+}
+.boton-enviar:hover {
+  visibility: visible;
+  opacity: 1;
+  color: red;
+  transition: 0.5s;
+}
+/* FOOTER */
+.pie {
+  clear: both;
+}
+.pie {
+  clear: both;
+  padding: 20px;
+  background: #ea2027;
+  color: #ffffff;
+}
+
+/* margenes:
+margin-bottom= abajo
+margin-top= arriba
+margin-left= izquierda
+margin-right= derecha
+*/

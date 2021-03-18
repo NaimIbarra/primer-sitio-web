@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Primer Pagina Wachina</title>
+    <meta name="description" content=" esta es mi primera cagada" 7 />
+    <meta name="author" content="krakis" />
+    <meta name="keywords" content="mi primera pagina, mi primer html" />
+    <link rel="shortcut icon" href="imagenes/loco.jpg">
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- selectores:
+            # para "ID"
+            . para "class"
+            * para todo-->
+  </head>
+  <body>
+    <div class="agrupar">
+      <header>
+        <h1>Mi Blog</h1>
+      </header>
+      <div>
+        <nav class="navegacion">
+          <ul class="menu">
+            <li><a href="#">Principal</a></li>
+            <li><a href="#">Ayuda</a></li>
+            <li>
+              <a href="#">Servicios</a>
+              <ul class="submenu">
+                <li><a href="#">Servicio 1</a></li>
+                <li><a href="#">Servicio 2</a></li>
+                <li><a href="#">Servicio 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <section class="seccion">
+        <article>
+          <hgroup>
+            <h1>Titulo del Primer Articulo</h1>
+            <h2>Subtitulo del Primer Articulo</h2>
+          </hgroup>
+          <time datetime="2-2-2021">Publicado 2-2-2021</time>
+          <img src="imagenes/loco.jpg" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero blanditiis
+            labore voluptatem, minus voluptates nostrum, optio harum non iure, adipisci
+            voluptatum quae! Possimus odit deserunt incidunt eaque deleniti excepturi
+            sequi?
+          </p>
+          <footer>
+            <a href="#"><p>Comentarios(0)</p></a>
+          </footer>
+          <address>
+            <a href="http://google.com">Visita este sitio Web</a>
+          </address>
+        </article>
+        <article>
+          <hgroup>
+            <h1>Titulo del Segundo Articulo</h1>
+            <h2>Subtitulo del Segundo Articulo</h2>
+          </hgroup>
+          <time datetime="2-2-2021">Publicado 2-2-2021</time>
+          <p>
+            <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus impedit
+            nisi reprehenderit voluptate iusto temporibus placeat sapiente molestias
+            laboriosam itaque eum excepturi sed architecto, totam vero laudantium nulla
+            quam incidunt.
+          </p>
+          <footer>
+            <a href="#"><p>Comentarios(10)</p></a>
+          </footer>
+        </article>
+      </section>
+      <aside class="aside">
+        <blockquote>
+          <form>
+            <label class="check" for="box1"> Te gusta la pagina? </label>
+            <input type="checkbox" value="si" name="si-no" id="box1"  required /> Si
+            <label for="box2"></label>
+            <input type="checkbox" value="no" name="si-no" id="box2" required /> No
+          </form>
+        </blockquote>
+        <blockquote>
+          <form>
+          <label class= "opinion" for="text-area"> Da tu opinion aqui: </label>
+          <input type="text" name="text-area" id="text-area" placeholder="Escribe aqui:" required/>
+          <button class="boton-enviar">Enviar</button>
+        </blockquote>
+      </aside>
+      <footer class="pie">Derechos Reservados 2010-2011</footer>
+    </div>
+  </body>
+</html>
